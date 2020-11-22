@@ -32,7 +32,7 @@ This open sourced project is a dedicated example tutorial for our community's co
 
 _If you have made any changes to the code, don't forget to restart the bot by typing **`refresh`** at the **`Tools > Terminal`** button._
 
-**[Tutorial Video](https://www.youtube.com/watch?v=FLyEh0nJzZ4&t=252s)
+
 
 ## Contributing
 
@@ -44,6 +44,6 @@ _If you have made any changes to the code, don't forget to restart the bot by ty
 
 ## Author
 
-1.  **Discord.js Music Bot** © [iCrawl](https://github.com/iCrawl)
-2.  Authored, maintained by iCrawl. And modified by Spexz
-3.  This work is licensed under a <a rel="license" href="https://github.com/zhycorp/music-bot-example/blob/master/LICENSE">GNU Affero General Public License</a>.
+1.  **Discord.js Music Bot** 
+2.  Authored, maintained by iCrawl. And modified by Dinav
+
