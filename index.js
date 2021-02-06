@@ -41,15 +41,23 @@ bot.on("message", async (message) => { // eslint-disable-line
 
     if (command === "help" || command === "cmd") {
         const helpembed = new MessageEmbed()
-            .setColor("BLUE")
-            .setAuthor(bot.user.tag, bot.user.displayAvatarURL())
-            .setDescription(`
-__**Command list**__
-> \`play\` > **\`play [title/url]\`**
-> \`search\` > **\`search [title]\`**
-> \`skip\`, \`stop\`,  \`pause\`, \`resume\`
-> \`nowplaying\`, \`queue\`, \`volume\``)
-            .setFooter("Made By Spexz");
+         .setTitle('Commands')  
+        .setDescription(`[𝐈𝐧𝐯𝐢𝐭𝐞](https://discord.com/api/oauth2/authorize?client_id=786209866946838528&permissions=36732224&scope=bot) | [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐒𝐞𝐫𝐯𝐞𝐫](https://discord.gg/RWSEj6JrjJ) | [𝐕𝐨𝐭𝐞](https://top.gg/bot/786209866946838528/vote)`)  
+        .addField('**`▶️ ?play or ?p [yt link/title]`**: Plays the music which matches the provided title or the yt link', '-----')
+        .addField('**`🔍 ?search or ?sc [title]`**: Gives you 10 best search results with the provided title', '-----')
+        .addField('**`⏸ ?pause or ?ps`**: Pauses Music for you', '-----')
+        .addField('**`⏯ ?resume or ?rs`**: Resumes the paused music', '-----')
+        .addField('**`⏩ ?skip or ?next`**: Skips the current playing music to the next queued up music', '-----')
+        .addField('**`⏹ ?stop or ?disconnect or ?leave`**: Deletes all the queues and leaves voice channel', '-----')
+        .addField('**`🔁 ?loop or ?repeat`**: To enable the loop aka repeat the same queue again to disable queue type **?loop** itself', '-----')
+        .addField('**`🔊 ?volume or ?vol or ?v [Between 0-100]`**: To change the volume the currently playing music', '-----')
+        .addField('**`🎶 ?queue or ?q`**: To see what all music are in the queue.', '-----')
+        .addField('**`💿 ?nowplaying or ?np`**: To check which song is playing now.', '-----')
+        .addField('**Social Links:**', `[Twitter](https://twitter.com/dj_blob) | [Github](https://github.com/DJ-Blob) | [Instagram](https://www.instagram.com/dj_blob/) | [Twitch](https://www.twitch.tv/djblob_)`)
+        .setTimestamp()
+        .setFooter('Enjoy the Music 🎧')
+        .setColor("PURPLE")
+            
         message.channel.send(helpembed);
     }
     if (command === "play" || command === "p") {
