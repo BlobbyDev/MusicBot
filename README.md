@@ -42,8 +42,4 @@ _If you have made any changes to the code, don't forget to restart the bot by ty
 4.  Push to the branch: `git push origin my-new-feature`
 5.  Submit a pull request :D
 
-## Author
-
-1.  **Discord.js Music Bot** 
-2.  Authored, maintained by iCrawl. And modified by Dinav
 
